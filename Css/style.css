@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400&family=Oswald:wght@200..700&display=swap');
+
+*{
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.parent{
+background-image: url("../image/background.jpg");
+  height: 100vh;
+ /* width: 100rvw; */
+ background-attachment:fixed;
+ background-repeat: no-repeat;
+ background-size:cover ;
+ overflow: hidden;
+}
+.parent .title{
+    text-align: center;
+    margin-left: 300px;
+    position: absolute;
+    margin-bottom: 113px;
+    top: 120px;
+    left: 250px;
+    font-size: 29px;
+    font-weight:bold;
+}
+.parent .navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top:10px ;
+}
+
+.parent .navbar .right-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    color: white;
+}
+  
+.navbar .logo{
+  height: 43px; /* Adjust height as needed */
+  width: 43px;
+}
+.parent-2{
+  background-image: url("../image/background\ 2.jpg.png");
+  height: 100vh;
+  /* width: 100rvw; */
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  overflow: hidden;
+  }
+.parent-2 .navbar .right-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+.parent-3{
+    background-image: url("../image/background\ 3.png");
+     height: 100vh;
+     /* width: 100rvw; */
+     background-attachment:fixed;
+     background-repeat: no-repeat;
+     background-size:cover ;
+     overflow: hidden;
+    }
+    .parent-3 .navbar .right-header{
+      display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 30%;
+    }
+ .footer .navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+ .footer .navbar .right-header{
+       display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 30%;
+ }
+ .footer{
+  padding: 8px 0px;
+ }
+.footer .navbar .left-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .navbar .left-nav .small-title{
+  padding-top: 9px;
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .navbar{
+  padding: 10px 0px;
+}
+
+.footer .navbar .title {
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 500;
+  color: #a0a7b5;
+}
+.footer .navbar .description{
+  font-size: 30px;
+  margin-top: -83px;
+  padding-left: 115px;
+  color: #4d4d4d;
+
+}
+.footer .navbar .small-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.small-footer{
+  background-image: url(../image/Rectangle\ 20.png);
+  display: flex;
+  flex-direction: row;
+}
+.last-footer{
+  background-image: url(../image/Rectangle\ 19.png);
+}
+.parent-2 .background-image{
+  background-image: url(../image/Rectangle\ 24.png);
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 73%;
+}
+.parent-2 .background-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 400px;
+}
+.last-footer {
+  /* display: flex; */
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.last-footer .footer-left {
+  display: flex;
+  flex-direction: row;
+}
+.last-footer .footer-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+}
+.last-footer .footer-left .small-title{
+  padding-top: 9px;
+  padding-left: 7px;
+  align-items: center;
+}
+.parent-2 .title{
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 500;
+  color: #a0a7b5;
+  padding-top: 40px;
+  padding-left: 300px;
+}
+.parent-2 .description{
+  font-size: 30px;
+  padding-left: 420px;
+  margin-top: -85px;
+}
+.parent-2 .small-title{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 500px;
+}
+.small-footer{
+    padding: 6px 97px;
+    justify-content: space-around;
+}
+
+.child-image{
+  background-image: url(../image/Rectangle\ 24.png);
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top: 45%;
+  display: flex;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 200px;
+}
+
+.small-footer-nav{
+  background-image: url(../image/Rectangle\ 20.png);
+  padding-left: 340px;
+  
+}
+.small-footer-nav .first{
+  padding-right: 36px;
+}
+
